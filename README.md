@@ -13,3 +13,4 @@ This repository provides the official PyTorch implementation of our paper:<br>
 > Our proposed WamGLM is based on VisualGLM-6B and employs LoRA fine-tuning.
 
 ## Dataset
+The dataset we used was the WaferMapVMQA dataset that we constructed ourselves. For details, see the folder finetune_data/m.json.
