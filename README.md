@@ -7,7 +7,7 @@
 </div>
 
 ## Introduction
-This repository provides the official PyTorch implementation of our paper:
+This repository provides the official PyTorch implementation of our paper:<br>
 **"WamGLM: A multimodal large-scale language model for wafer map defect information in-depth query through multi-turn dialogue based on prototypical supervised contrastive learning"**.
 
 ## Enviroment
