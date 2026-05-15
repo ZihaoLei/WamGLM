@@ -14,3 +14,9 @@ This repository provides the official PyTorch implementation of our paper:<br>
 
 ## Dataset
 The dataset we used was the WaferMapVMQA dataset that we constructed ourselves. WaferMapVMQA dataset is based on the open-source dataset [MixedWM38 Dataset](https://github.com/Junliangwangdhu/WaferMap). For details, see the folder finetune_data/m.json.
+## Enviroment
+Pytho==`3.10`, Pytorch==`2.4.0`, CUDA==`11.8`
+### Enviroment Setup
+```bash
+pip install -r requirements.txt
+```
