@@ -57,8 +57,7 @@ We would like to thank Zhu et al. for their [Balanced Contrastive Learning](http
 If this code is useful in your research we would kindly ask you to cite our paper.
 ```bash
 @misc{Gu2025WamGLM,
-      title={WamGLM: A multimodal large-scale language model for wafer map defect information in-depth query through multi-turn dialogue based on prototypical supervised contrastive learning}, 
-      author={Shulong Gu},
+      title={WamGLM: A multimodal large-scale language model for wafer map defect information in-depth query through multi-turn dialogue based on prototypical supervised contrastive learning},
       year={2025},
       publisher = {Elseiver},
       journal = {Applied Soft Computing}
