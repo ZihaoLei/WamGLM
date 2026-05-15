@@ -50,3 +50,14 @@ We would like to thank [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) for
 We would like to thank Li et al. for their pioneering [DefectGLM](https://github.com/WH-HuanWang/Defect-GLM).
 We would like to thank Wang et al. for releasing the open-source wafer map dataset [MixedWM38 Dataset](https://github.com/Junliangwangdhu/WaferMap).
 We would like to thank Zhu et al. for their [Balanced Contrastive Learning](https://github.com/FlamieZhu/Balanced-Contrastive-Learning).
+## Citation
+If this code is useful in your research we would kindly ask you to cite our paper.
+```bash
+@misc{Gu2025WamGLM,
+      title={WamGLM: A multimodal large-scale language model for wafer map defect information in-depth query through multi-turn dialogue based on prototypical supervised contrastive learning}, 
+      author={Shulong Gu},
+      year={2025},
+      publisher = {Elseiver},
+      journal = {Applied Soft Computing}
+}
+```
