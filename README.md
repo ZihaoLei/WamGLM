@@ -10,7 +10,7 @@
 This repository provides the official PyTorch implementation of our paper:<br>
 **"WamGLM: A multimodal large-scale language model for wafer map defect information in-depth query through multi-turn dialogue based on prototypical supervised contrastive learning"**.
 
-> Our proposed WamGLM is based on VisualGLM-6B and employs LoRA fine-tuning.
+> Our proposed WamGLM is based on [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) and employs LoRA fine-tuning.
 
 ## Dataset
 The dataset we used was the WaferMapVMQA dataset that we constructed ourselves. For details, see the folder finetune_data/m.json.
