@@ -22,3 +22,14 @@ pip install -r requirements.txt
 ```
 ## Preparation
 Organize the dataset folder in the same way as the `finetune_data` folder.
+## Training
+To avoid potential network connection issues, run the following command in advance:
+```bash
+export HF_ENDPOINT=https://hf-mirror.com
+```
+### Stage 1
+To perform vision fine-tuning on our model, run the following command:
+To avoid potential network connection issues, run the following command in advance:
+```bash
+bash finetune/finetune_cepbcl_trainvisiononly.sh
+```
