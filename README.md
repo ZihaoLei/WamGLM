@@ -29,7 +29,15 @@ export HF_ENDPOINT=https://hf-mirror.com
 ```
 ### Stage 1
 To perform vision fine-tuning on our model, run the following command:
-To avoid potential network connection issues, run the following command in advance:
 ```bash
 bash finetune/finetune_cepbcl_trainvisiononly.sh
+```
+### Stage 2
+In the second stage, language fine-tuning is performed using the model weights obtained from the visual fine-tuning in the first stage. Organize the model weight folder in the same way as the original VisualGLM-6B model weight folder, and then use the environment variable `SAT_HOME` to change the model weight download path, as shown in the following command:
+```bash
+export SAT_HOME="/checkpoints/vision_finetune_weight"
+```
+To perform language fine-tuning on our model, run the following command:
+```bash
+bash finetune/finetune_trainchatonly.sh
 ```
