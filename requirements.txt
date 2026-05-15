@@ -1,7 +1,7 @@
 SwissArmyTransformer>=0.3.6
 torch>1.10.0
 torchvision
-transformers>=4.27.1
+transformers==4.33.2
 mdtex2html
 gradio==3.50.0
 wandb
