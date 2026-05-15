@@ -41,3 +41,12 @@ To perform language fine-tuning on our model, run the following command:
 ```bash
 bash finetune/finetune_trainchatonly.sh
 ```
+## WebUI
+```bash
+python web_demo.py --from_pretrained checkpoints/language_finetune_weight
+```
+## Acknowledgement
+We would like to thank [VisualGLM-6B](https://github.com/THUDM/VisualGLM-6B) for providing the foundational open-source multimodal large model.
+We would like to thank Li et al. for their pioneering [DefectGLM](https://github.com/WH-HuanWang/Defect-GLM).
+We would like to thank Wang et al. for releasing the open-source wafer map dataset [MixedWM38 Dataset](https://github.com/Junliangwangdhu/WaferMap).
+We would like to thank Zhu et al. for their [Balanced Contrastive Learning](https://github.com/FlamieZhu/Balanced-Contrastive-Learning).
