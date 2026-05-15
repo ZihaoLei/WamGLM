@@ -20,8 +20,8 @@ OPTIONS_NCCL="NCCL_DEBUG=info NCCL_IB_DISABLE=0 NCCL_NET_GDR_LEVEL=2"
 HOST_FILE_PATH="hostfile"
 HOST_FILE_PATH="hostfile_single"
 
-train_data="./finetune_data/multi_dialogue_29749_10_tworound.json"
-eval_data="./finetune_data/multi_dialogue_29749_12_valid_200.json"
+train_data="./finetune_data/WaferMapVMQA_Dataset_Train.json"
+eval_data="./finetune_data/WaferMapVMQA_Dataset_Valid.json"
 
 
 gpt_options=" \
